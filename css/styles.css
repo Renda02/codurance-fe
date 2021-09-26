@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -42,12 +44,13 @@ body {
 }
 
 .intro-link {
-  padding: 10px 17px 12px 17px;
+  padding: 10px 17px 15px 17px;
   border-radius: 3px;
-  text-decoration: none;
+  border: none;
   color: #ffff;
   background-color: #ff5851;
   font-weight: bold;
+  margin-bottom: 160px;
 }
 
 .main-heading {
@@ -79,13 +82,13 @@ body {
   border-radius: 16px;
   opacity: 1;
   font-size: 19px;
-  font-weight: 500;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   padding: 41.5px 49px 43px;
-  width: 80%;
-  margin: 0 auto;
   transform: translateY(-341%);
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .info-line-one,
@@ -164,6 +167,7 @@ body {
     width: 70%;
     flex-direction: row;
     justify-content: space-between;
+    margin: auto;
     margin-top: -10em;
   }
 
