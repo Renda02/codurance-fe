@@ -1,16 +1,16 @@
-* {
+html, body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Open Sans", sans-serif;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 .intro,
 .main {
+  font-family: "Open Sans", sans-serif;
+  margin: 0 auto;
   display: flex;
   padding-left: 1.56rem;
   padding-right: 3.1875rem;
@@ -26,7 +26,6 @@ body {
 
 .main {
   flex-direction: column;
-  padding-bottom: 3.04rem;
 }
 
 .intro-heading {
@@ -86,7 +85,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 41.5px 49px 43px;
-  transform: translateY(-341%);
+  transform: translateY(-321%);
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -168,7 +167,7 @@ body {
     justify-content: space-between;
     margin-left: 81px;
     margin-right: 80px;
-    margin-top: -10em;
+    margin-top: -5em;
   }
 
   .info-line-one,
@@ -176,6 +175,11 @@ body {
 .info-line-three {
     padding: 0;
     border-bottom: none;
+  }
+}
+@media (min-width: 1200px) {
+  .more-info {
+    margin-top: -8em;
   }
 }
 
